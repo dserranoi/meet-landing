@@ -9,8 +9,8 @@
   background-size: cover;
   background-position: center;
 }
-.mobile-topsection{
-    margin-top: 48px;
+.mobile-topsection {
+  margin-top: 48px;
 }
 .mobile-topsection h1 {
   font-family: "Red Hat Display";
@@ -21,4 +21,59 @@
   /* or 110% */
   text-align: center;
   color: #28283d;
+}
+.mobile-topsection p {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  color: #87879d;
+  margin: 24px;
+}
+.mobile-topsection-btngroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-download-btn {
+  width: 193px;
+  height: 60px;
+  background-color: #4d96a9;
+  border-radius: 29px;
+  border: 1px transparent;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+}
+.mobile-download-btn > span {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  color: #8fe3f9;
+  margin-left: 4px;
+}
+.mobile-whatisit-btn {
+  width: 140px;
+  height: 60px;
+  background-color: #855fb1;
+  border-radius: 29px;
+  border: 1px transparent;
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  color: #ffffff;
 }
