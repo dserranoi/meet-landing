@@ -1,0 +1,24 @@
+.header {
+  margin-top: 54px;
+}
+.mobile-hero {
+  height: 153px;
+  margin-top: 48px;
+  background-image: url("../tablet/image-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mobile-topsection{
+    margin-top: 48px;
+}
+.mobile-topsection h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+  text-align: center;
+  color: #28283d;
+}
