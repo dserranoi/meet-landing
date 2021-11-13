@@ -1,12 +1,49 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body,p{
-    margin: 0 auto;
-}
-
-.header{
-    display: flex;
-    justify-content: center;
+body,
+p {
+  margin: 0 auto;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.connector-section {
+  display: flex;
+  justify-content: center;
+}
+
+.connector {
+  width: 2px;
+  height: 100px;
+  /* background-color: ; */
+  position: relative;
+  border-left: 1px solid #87879d;
+  opacity: 0.25;
+  margin-bottom: 40px;
+}
+
+.connector.connector1::before {
+  content: "01";
+  text-align: center;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  /* identical to box height, or 162% */
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border:1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  color: #87879D;
+  background-color: #FAFAFA;
+  padding: 2px;
+  position: absolute;
+  display: inline-block;
+  top:90px;
+  left: -24px;
+}
