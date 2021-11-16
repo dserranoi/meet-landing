@@ -90,6 +90,7 @@
   margin-top: 64px;
 }
 .mobile-photogrid {
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -99,10 +100,10 @@
   text-align: center;
   border-radius: 15px;
   overflow: hidden;
-  width: 150px;
+  width: 100%;
 }
 .mobile-photogrid-item > img {
-  width: 150px;
+  width: 100%;
   object-fit: cover;
 }
 
