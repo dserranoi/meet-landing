@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
 }
-body{
-  background: #FAFAFA;
+body {
+  background: #fafafa;
 }
 body,
 p,
@@ -15,12 +15,12 @@ h2 {
   justify-content: center;
 }
 
-.connector-section,.connector-section2 {
+.connector-section,
+.connector-section2 {
   display: flex;
   justify-content: center;
   margin-top: 64px;
 }
-
 
 .connector {
   width: 2px;
@@ -38,7 +38,7 @@ h2 {
   /* background-color: ; */
   position: relative;
   border-left: 1px solid #87879d;
-  opacity: .9;
+  opacity: 0.9;
   margin-bottom: 40px;
 }
 
@@ -84,7 +84,7 @@ h2 {
   top: 110px;
   left: -24px;
 }
-.connector-container{
+.connector-container {
   position: absolute;
   left: 50%;
   top: -200px;
@@ -122,8 +122,8 @@ h2 {
   margin-bottom: 40px;
 }
 
-.bottomsection  p:nth-of-type(2) {
-  font-family: 'Red Hat Display', sans-serif;
+.bottomsection p:nth-of-type(2) {
+  font-family: "Red Hat Display", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -132,6 +132,11 @@ h2 {
   text-align: center;
   color: #87879d;
 }
+
+.hero {
+  display: none;
+}
+
 
 
 
